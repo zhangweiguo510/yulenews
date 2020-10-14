@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "视频",
+  "usingComponents": {
+    "load-more": "/components/loadMore/loadMore",
+    "video-cell": "/components/video/videoCell",
+    "pulldown-refresh": "/components/pulldown/pulldown"
+  }
+}

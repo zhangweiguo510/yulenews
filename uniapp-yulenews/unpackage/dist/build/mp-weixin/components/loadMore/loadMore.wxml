@@ -1,0 +1,1 @@
+<view class="load-more"><image hidden="{{!(status==1)}}" style="width:50rpx;height:50rpx;" src="../../static/img/tabbar/loadmore.png"></image><text class="laod-text">{{text[status]}}</text></view>

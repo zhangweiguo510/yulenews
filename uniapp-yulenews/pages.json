@@ -1,0 +1,53 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tarbar/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, 
+		{
+			"path": "pages/tarbar/video/video",
+			"style": {
+				"navigationBarTitleText": "视频"
+			}
+		},
+		{
+			"path": "pages/tarbar/home/article",
+			"style": {
+				"navigationBarTitleText": "明日头条"
+			}
+		},
+		{
+			"path": "pages/tarbar/video/videoDetail",
+			"style": {
+				"navigationBarTitleText": "视频详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "明日头条",
+		"navigationBarBackgroundColor": "#d43d3d",
+		"backgroundColor": "#d43d3d"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#f8f8f8",
+		"color": "#8f8f94",
+		"selectedColor": "f33e54",
+		"list": [{
+				"pagePath": "pages/tarbar/home/home",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tarbar/video/video",
+				"iconPath": "static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"text": "视频"
+			}
+		]
+	}
+}

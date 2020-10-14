@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/tarbar/home/home",
+    "pages/tarbar/video/video",
+    "pages/tarbar/home/article",
+    "pages/tarbar/video/videoDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "明日头条",
+    "navigationBarBackgroundColor": "#d43d3d",
+    "backgroundColor": "#d43d3d"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#f8f8f8",
+    "color": "#8f8f94",
+    "selectedColor": "f33e54",
+    "list": [
+      {
+        "pagePath": "pages/tarbar/home/home",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/homeactive.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/tarbar/video/video",
+        "iconPath": "static/img/tabbar/guanzhu.png",
+        "selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+        "text": "视频"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
